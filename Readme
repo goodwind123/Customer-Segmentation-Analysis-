@@ -1,0 +1,14 @@
+This is a project using UCI Online Retail Data Set: https://archive.ics.uci.edu/ml/datasets/Online%20Retail
+
+Seeked to answer the following questions on the dataset:
+1.How can I group the various customers
+2.What are my small customers buying? (individuals or non-wholesalers)
+3.What kind of wholesale customers do I have?
+
+1. EDA & RFM: Initial data cleaning and EDA. Applied RFM analysis as well on the data. Grouped data into thre group of customers using 
+k-means and RFM. Identified small, medium and large customers (looking at monetary values)
+
+2. Basket Analysis: Applied market basket analysis using association rules to identify what are the likely combinations and goods that 
+these 'small' customers are purchasing
+
+3. HC: Applied Hierarchical Clustering on the large customers to further segment and split large customers. 
